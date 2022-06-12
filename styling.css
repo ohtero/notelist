@@ -9,7 +9,7 @@ background-color: rgb(40, 60, 80);
 #buttonBox {
     box-sizing: border-box;
     display: flex;
-    margin: 5px 0px;
+    margin: 2px 0px;
     width: 100%;
 }
 
@@ -28,7 +28,7 @@ background-color: rgb(40, 60, 80);
     background-color: rgb(220, 210, 210);
     box-shadow: 3px 4px 2px white inset, -2px -2px 5px rgb(58, 58, 58) inset, 1px 1px 5px rgb(0, 0, 0);
     transition: background-color 200ms ease-out; 
-    height: 2rem;
+    height: 3rem;
 }
 
 #addBtn:hover {
@@ -48,7 +48,7 @@ background-color: rgb(40, 60, 80);
     box-shadow: 1px 1px 2px white inset, -1px -1px 2px rgb(40, 40, 40) inset;
     display: inherit;
     height: 100%;
-    max-width: 100%;
+    width: 3rem;
     justify-content: center;
     transition: background-color 200ms ease;   
 }
@@ -94,11 +94,11 @@ background-color: rgb(40, 60, 80);
     box-shadow: 3px 4px 2px white inset, -2px -0px 5px rgb(58, 58, 58) inset, 1px 1px 5px rgb(0, 0, 0);
     box-sizing: border-box;
     display: flex;
-    height: 2rem;
+    height: 3rem;
     justify-content: center;
     margin: 1px 0px;
     transition: background-color 200ms ease-out;
-    width: 2rem;   
+    width: 3rem;   
 }
 .addRowAfterBtn:hover {
     background-color: rgb(250, 245, 243); 
@@ -146,8 +146,8 @@ background-color: rgb(40, 60, 80);
     border-style: solid;
     box-shadow: 2px 0px 4px rgb(70, 70, 70) inset;
     display: inherit;
-    font-size: 1rem;
-    height: 2rem;
+    font-size: 3rem;
+    height: 3rem;
     padding: 0px 0px 0px 5px; 
     width: 100%;
    

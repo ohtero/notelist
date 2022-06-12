@@ -1,0 +1,180 @@
+html {
+    font-size: min(max(16px, 2vw), 20px);
+}
+body {
+
+background-color: rgb(40, 60, 80);
+}
+
+#buttonBox {
+    box-sizing: border-box;
+    display: flex;
+    margin: 5px 0px;
+    width: 100%;
+}
+
+.button1 {
+    align-items: center;
+    border-radius: 5px;
+    border-width: 0px;
+    box-sizing: border-box;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+#addBtn {
+    background-color: rgb(220, 210, 210);
+    box-shadow: 3px 4px 2px white inset, -2px -2px 5px rgb(58, 58, 58) inset, 1px 1px 5px rgb(0, 0, 0);
+    transition: background-color 200ms ease-out; 
+    height: 2rem;
+}
+
+#addBtn:hover {
+    background-color: rgb(250, 245, 243);    
+}
+  
+.plusIcon {
+    display: inherit;
+    font-size: 1rem;
+    opacity: 50%;
+}
+
+.rowButtonCont {
+    align-items: center;
+    background-color: rgb(180, 170, 170);
+    box-sizing: border-box;
+    box-shadow: 1px 1px 2px white inset, -1px -1px 2px rgb(40, 40, 40) inset;
+    display: inherit;
+    height: 100%;
+    max-width: 100%;
+    justify-content: center;
+    transition: background-color 200ms ease;   
+}
+
+.rowButtonCont:hover {
+    background-color: rgb(255, 150, 150);  
+    
+}
+
+.rowBtn{   
+    font-size: 0.7rem; 
+    margin: 0px 5px;
+    opacity:50%;
+    transition: opacity 200ms ease-out;
+}
+
+.backgroundCont {
+    box-sizing: border-box;    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.baseCont {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;  
+    width: 95vw;
+}
+
+#addRowBtnCont { 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+         
+}
+
+.addRowAfterBtn {
+    align-items: center;
+    background-color:rgb(220, 210, 210);
+    border-radius: 0px 30px 30px 0px;
+    box-shadow: 3px 4px 2px white inset, -2px -0px 5px rgb(58, 58, 58) inset, 1px 1px 5px rgb(0, 0, 0);
+    box-sizing: border-box;
+    display: flex;
+    height: 2rem;
+    justify-content: center;
+    margin: 1px 0px;
+    transition: background-color 200ms ease-out;
+    width: 2rem;   
+}
+.addRowAfterBtn:hover {
+    background-color: rgb(250, 245, 243); 
+}
+
+.contentBox {
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.textfieldCont {
+    background-color: rgb(220, 210, 210);
+    box-sizing: border-box;
+    box-shadow: 3px 4px 2px white inset, -2px -2px 5px rgb(58, 58, 58) inset, 1px 1px 5px rgb(0, 0, 0);
+    border-radius: 5px;
+    display: flex; 
+    flex-direction: column;    
+    padding: 10px;  
+    z-index: 1; 
+    width: 100%;
+}
+
+.textRow {
+    align-items: center; 
+    box-sizing: border-box;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color:rgb(70, 70, 70);
+    display: inherit;
+    width: 100%;
+    
+}
+
+.inputField {
+    background-color: rgb(250, 245, 243);
+    box-sizing: border-box;
+    border-color:rgb(100, 100, 100);
+    border-radius: 0px 0px 0px 0px;
+    border-width: 0px 0px 0px 1px;
+    border-style: solid;
+    box-shadow: 2px 0px 4px rgb(70, 70, 70) inset;
+    display: inherit;
+    font-size: 1rem;
+    height: 2rem;
+    padding: 0px 0px 0px 5px; 
+    width: 100%;
+   
+    
+}
+
+.inputField:focus-within {
+    background-color: white;
+}
+
+.fi-br-cross {
+    display:flex;    
+}
+#heading { 
+    font-size: calc(1rem * 0.5vw);  
+}
+
+#mainHeader {
+    background-color: #e6e6e6;   
+    padding: 50px;
+    text-align: center;
+    opacity: 0%;
+}
+
+
+@media (min-width: 680px) {
+    .baseCont {
+        width: 650px;
+    }
+}

@@ -90,9 +90,6 @@ function insertAfterByBtn() {
     buttonIndex++;
     rowCount++;
     rowIndex++;
-    const focusTargetRow = currentRow.nextElementSibling.lastElementChild;
-    focusTargetRow.focus(); 
-        
 };
 
 var appendTextfield = () => {
